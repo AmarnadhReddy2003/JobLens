@@ -1,0 +1,26 @@
+TITLE: Python Full Stack Developer
+COMPANY: Sirigiri Software Solutions
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-3
+SALARY:  2.5 to 6 LPA
+SOURCE: Naukri
+URL:https://www.naukri.com/job-listings-python-fullstack-developer-sirigiri-software-solutions-hyderabad-0-to-3-years-071026049606
+Date_POSTED: 2026-10-14
+DATE_COLLECTED: 2026-10-14
+
+---
+Job description
+Roles and Responsibilities
+
+Design, develop, test, and deploy full-stack applications using Python as the primary language.
+Collaborate with cross-functional teams to identify project requirements and deliver high-quality solutions.
+Implement machine learning algorithms using popular libraries such as scikit-learn or TensorFlow.
+Develop RESTful APIs using Django or Flask for data storage and retrieval.
+Troubleshoot issues related to application performance, scalability, and security.
+Role: Full Stack Developer
+Industry Type: IT Services & Consulting
+Department: Engineering - Software & QA
+Employment Type: Full Time, Permanent
+Role Category: Software Development
+Education
+UG: Any Graduate

@@ -1,0 +1,48 @@
+TITLE: Associate Enginner
+COMPANY: Virtusa
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-2
+SALARY:  NA
+SOURCE: Linkedin
+URL:https://www.linkedin.com/jobs/view/4475277725/
+Date_POSTED: 2026-10-07
+DATE_COLLECTED: 2026-10-14
+---
+
+About the job
+Job Title: Software Testing Engineer
+
+Location: PCS HYD, Hyderabad
+
+Years of Experience: 0-2 Years
+
+Job Summary: We are seeking a motivated and detail-oriented Software Testing Engineer with a strong foundation in Python and Robot Framework. 
+The ideal candidate will be responsible for ensuring the quality and reliability of our software products through rigorous testing methodologies. 
+This role is perfect for recent graduates or individuals with limited experience who are eager to grow their skills in software testing.
+
+Responsibilities
+
+Design, develop, and execute test cases using Python and Robot Framework.
+Perform functional, regression, and performance testing on software applications.
+Identify, document, and track defects using appropriate tools.
+Collaborate with development teams to understand requirements and provide feedback on software functionality.
+Participate in test planning and strategy discussions.
+Continuously improve testing processes and methodologies.
+
+Mandatory Skills
+
+Strong knowledge of Python programming language.
+Proficiency in Robot Framework for test automation.
+Experience with Selenium for web application testing is a deal breaker.
+
+Preferred Skills
+
+Familiarity with Agile methodologies.
+Basic understanding of software development life cycle (SDLC).
+Experience with version control systems like Git.
+
+Qualifications
+
+Bachelor's degree in Computer Science, Information Technology, or a related field.
+Strong analytical and problem-solving skills.
+Excellent communication and teamwork abilities.

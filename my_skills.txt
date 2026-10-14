@@ -1,0 +1,13 @@
+Python
+Java
+JavaScript
+C++
+Django
+Flask
+REST APIs
+Machine Learning
+NLP
+scikit-learn
+TensorFlow
+Generative AI
+OOP

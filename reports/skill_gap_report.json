@@ -1,0 +1,571 @@
+{
+    "project": "JobLens",
+    "total_job_descriptions": 10,
+    "skill_frequency": [
+        {
+            "skill": "Python",
+            "job_count": 9,
+            "percentage": 90.0
+        },
+        {
+            "skill": "Software Development",
+            "job_count": 8,
+            "percentage": 80.0
+        },
+        {
+            "skill": "Problem Solving",
+            "job_count": 7,
+            "percentage": 70.0
+        },
+        {
+            "skill": "Troubleshooting",
+            "job_count": 6,
+            "percentage": 60.0
+        },
+        {
+            "skill": "Communication",
+            "job_count": 6,
+            "percentage": 60.0
+        },
+        {
+            "skill": "Java",
+            "job_count": 4,
+            "percentage": 40.0
+        },
+        {
+            "skill": "JavaScript",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "skill": "Teamwork",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "skill": "C++",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "skill": "SQL",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "skill": "Machine Learning",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "skill": "Technical Support",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Code Review",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Django",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "CSS",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Flask",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "REST APIs",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Version Control",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "HTML",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Programming Concepts",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "DSA",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Software Testing",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Agile",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Software Engineering",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Data Analysis",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "C#",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Debugging",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Performance Optimization",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Software Design",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Unit Testing",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "React",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Node.js",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Database Management",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Selenium",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Git",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Robot Framework",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Jira",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Angular",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "TypeScript",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "GitHub",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Docker",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "scikit-learn",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "TensorFlow",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "OOP",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Generative AI",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Oracle",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Software Maintenance",
+            "job_count": 1,
+            "percentage": 10.0
+        }
+    ],
+    "category_frequency": [
+        {
+            "category": "Software Engineering Concepts",
+            "job_count": 10,
+            "percentage": 100.0
+        },
+        {
+            "category": "Programming Languages",
+            "job_count": 9,
+            "percentage": 90.0
+        },
+        {
+            "category": "Other Skills",
+            "job_count": 8,
+            "percentage": 80.0
+        },
+        {
+            "category": "Development Tools and Testing",
+            "job_count": 4,
+            "percentage": 40.0
+        },
+        {
+            "category": "Databases and Query Languages",
+            "job_count": 4,
+            "percentage": 40.0
+        },
+        {
+            "category": "Web Technologies and Frameworks",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "category": "Computer Science Fundamentals",
+            "job_count": 3,
+            "percentage": 30.0
+        },
+        {
+            "category": "AI and Machine Learning",
+            "job_count": 3,
+            "percentage": 30.0
+        }
+    ],
+    "skill_gap_analysis": {
+        "matched_skills": [
+            {
+                "skill": "Python",
+                "job_count": 9,
+                "percentage": 90.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "Java",
+                "job_count": 4,
+                "percentage": 40.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "JavaScript",
+                "job_count": 3,
+                "percentage": 30.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "C++",
+                "job_count": 3,
+                "percentage": 30.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "Machine Learning",
+                "job_count": 3,
+                "percentage": 30.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "Django",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "Flask",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "REST APIs",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "scikit-learn",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "TensorFlow",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "OOP",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Matched"
+            },
+            {
+                "skill": "Generative AI",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Matched"
+            }
+        ],
+        "skills_to_review_or_learn": [
+            {
+                "skill": "Software Development",
+                "job_count": 8,
+                "percentage": 80.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Problem Solving",
+                "job_count": 7,
+                "percentage": 70.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Troubleshooting",
+                "job_count": 6,
+                "percentage": 60.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Communication",
+                "job_count": 6,
+                "percentage": 60.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Teamwork",
+                "job_count": 3,
+                "percentage": 30.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "SQL",
+                "job_count": 3,
+                "percentage": 30.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Technical Support",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Code Review",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "CSS",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Version Control",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "HTML",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Programming Concepts",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "DSA",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Software Testing",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Agile",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Software Engineering",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Data Analysis",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "C#",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Debugging",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Performance Optimization",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Software Design",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Unit Testing",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "React",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Node.js",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Database Management",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Selenium",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Git",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Robot Framework",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Jira",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Angular",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "TypeScript",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "GitHub",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Docker",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Oracle",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Software Maintenance",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            }
+        ]
+    }
+}

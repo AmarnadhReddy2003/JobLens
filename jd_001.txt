@@ -1,0 +1,66 @@
+TITLE: Python Full Stack Engineer
+COMPANY: Nextenti Tech Private Limited
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: Freshers
+SALARY:  NA 
+SOURCE: Linkedin
+URL:https://www.linkedin.com/jobs/view/4470147820/
+Date_POSTED:2026-10-10
+DATE_COLLECTED: 2026-10-14
+
+---
+Job Description
+
+Responsibilities:
+ Develop and maintain scalable web applications using Python and related frameworks.
+ Collaborate with cross-functional teams to define, design, and ship new features.
+ Build efficient back-end components with Python, Flask, and Django.
+ Implement user interfaces using HTML/CSS, JavaScript, and React.js.
+ Design and manage databases ensuring data integrity and security.
+ Develop RESTful APIs to support front-end functionalities.
+ Conduct unit testing to ensure high-quality code.
+ Utilize version control systems for efficient code management and collaboration.
+ Troubleshoot, debug applications, and provide technical support.
+ Participate in code reviews and contribute to continuous improvement processes.
+
+
+
+Qualification: B.E/ B.Tech
+
+Department: General
+
+Skills:
+
+Python Programming
+
+Flask Framework
+
+HTML/CSS
+
+Node.js
+
+Database Management
+
+Version Control Systems
+
+RESTful APIs
+
+React.js
+
+JavaScript
+
+Django Framework
+
+Version Control
+
+Front-End Technologies
+
+RESTful API Development
+
+Unit Testing
+
+Specialization
+
+python full stack
+
+

@@ -1,0 +1,51 @@
+TITLE: Software Engineer
+COMPANY: NetM Corporate Solutions
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-1
+SALARY:  3.8 LPA
+SOURCE: Naukri
+URL: https://www.naukri.com/job-listings-software-engineer-associate-software-engineer-graduate-engineer-netm-corporate-solutions-hyderabad-bengaluru-india-0-to-1-years-101026016223
+Date_POSTED:2026-10-11
+DATE_COLLECTED: 2026-10-14
+---
+
+Job description
+We are looking for freshers from the 2022, 2023, 2024, 2025 and 2026 pass-out batches for multiple entry-level opportunities across IT and non-IT functions. The available roles include Software Engineer, Associate Engineer, Graduate Trainee, Junior Developer, IT Associate, Process Associate and Management Trainee. Candidates may work on software development, application development, technical support, software testing, data analysis or business operations, depending on the role, skills and qualifications. The CTC ranges from 3 to 12 LPA, based on the position and candidate profile. Work mode will be Hybrid or Remote, depending on the role and business requirements.
+
+
+Role & Responsibilities
+
+
+Assist with software development, application development, coding, debugging and application maintenance.
+Support software testing, quality checks, defect identification and documentation.
+Work with programming languages such as Java, Python, C, C++ and .NET, as applicable to the role.
+Perform database-related tasks using SQL and Oracle.
+Support enterprise applications and technologies such as SAP, where applicable.
+Provide technical support, troubleshoot basic issues and assist with application maintenance.
+Work with MS Excel and MS Office for reporting, documentation and data management.
+Assist with data analysis, report preparation and information validation.
+Support business operations, process coordination and day-to-day administrative activities.
+Collaborate with team members to complete assigned tasks and project deliverables.
+Follow organizational processes, quality standards and timelines.
+Learn new tools, technologies and business processes relevant to the assigned role.
+
+Preferred Candidate Profile
+
+
+Freshers from the 2022, 2023, 2024, 2025 and 2026 pass-out batches.
+Educational qualifications may include B.E., B.Tech, M.E., M.Tech, MCA, BCA, B.Sc., B.Com., BA, BBA, MBA, BCS, Diploma, Polytechnic or other relevant qualifications, depending on the role.
+Basic knowledge of programming, databases, software testing, technical support, data analysis or business operations, as applicable.
+Familiarity with Java, Python, C, C++, .NET, SQL, Oracle, SAP, Excel or MS Office will be an advantage for relevant positions.
+Good communication, analytical thinking and problem-solving skills.
+Willingness to learn new technologies, adapt to changing requirements and work collaboratively.
+Ability to follow instructions, manage assigned tasks and meet deadlines.
+Candidates with academic projects, internships or relevant certifications may be preferred for applicable roles.
+Open to PAN India opportunities, with Hybrid or Remote work arrangements depending on the position.
+Compensation of 3 to 12 LPA, depending on the designation, skills, qualifications and selection.
+Role: Software Development - Other
+Industry Type: IT Services & Consulting
+Department: Engineering - Software & QA
+Employment Type: Full Time, Permanent
+Role Category: Software Development
+Education
+UG: Any Graduate

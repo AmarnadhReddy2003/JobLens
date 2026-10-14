@@ -1,0 +1,22 @@
+TITLE: Associate Software Engineer
+COMPANY: Heizen
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-2
+SALARY:  4–8 LPA
+SOURCE: Linkedin
+URL: https://www.linkedin.com/jobs/view/4479064559/
+Date_POSTED: 2026-10-10
+DATE_COLLECTED: 2026-10-14
+---
+
+About the job
+Heizen — Associate Software Engineer 
+Location: Hyderabad 
+Job Type: Full-Time 
+Experience: 0–2 Years,Freshers can apply 
+Education: B.Tech / B.E. in Computer Science, IT, or related field 
+Job Description:
+Heizen is looking for an Associate Software Engineer to support software development and contribute to building, testing, and improving applications. 
+Key Responsibilities:
+Develop and maintain software applications. Write clean, efficient, and maintainable code. Understand requirements and implement technical solutions. Debug and troubleshoot software issues. Participate in testing and code reviews. Work with senior developers and cross-functional teams. Learn and apply new technologies as required. Required Skills Basic knowledge of Java / Python Understanding of Data Structures & Algorithms Problem-solving and analytical skills Knowledge of software development fundamentals Good communication and teamwork Willingness to learn new technologies Education B.Tech / B.E. in Computer Science, Information Technology, or a related discipline. 
+Experience 0–2 years. Freshers with strong programming fundamentals and relevant academic projects can apply. 

@@ -1,0 +1,70 @@
+TITLE: Software Engineer
+COMPANY: Microsoft
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-2
+SALARY:  NA
+SOURCE: Linkedin
+URL:https://www.linkedin.com/jobs/view/4475578485/
+Date_POSTED: 2026-10-14
+DATE_COLLECTED: 2026-10-14
+---
+About the job
+Overview
+
+The Windows + Devices Fundamentals team is responsible for the reliability, compatibility, performance, battery life, and sustainability of Windows devices. Our work spans hardware and OEM partners, the operating system, and application layers – helping protect, manage, and enhance the fundamentals of the Windows ecosystem.
+
+We are seeking a motivated Software Engineer to help build the next generation of Windows device optimizations. As advances in AI, silicon, and software create new opportunities, you will contribute to making exceptional device fundamentals a defining feature of Windows PCs.
+
+This role is ideal for an early-career engineer who enjoys learning how complex systems work, developing solid technical skills, and contributing to innovations that improve how people live, work, and play.
+
+Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+
+Responsibilities
+
+Analyze telemetry and trace data, with support from experienced engineers, to understand software and hardware behavior on individual devices and at scale.
+Investigate system issues using debugging and performance-analysis tools.
+Identify optimization opportunities and contribute to the design and implementation of improvements.
+Develop, test, and maintain code that improves experiences across operating-system and application layers.
+Deliver reliable, high-quality solutions by following sound engineering practices and incorporating feedback from code and design reviews.
+Use data to evaluate solutions, validate improvements, and support engineering decisions.
+Collaborate with team members and partner teams to deliver improvements across the Windows ecosystem.
+
+Qualifications
+
+Required/Minimum Qualifications:
+
+Bachelor's Degree in Computer Science, or related technical discipline with proven experience coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python.
+OR equivalent experience.
+Other Requirements: Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. 
+These requirements include but are not limited to the following specialized security screenings:
+
+Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter. 
+
+Preferred Qualifications
+
+Experience gained through coursework, internships, or professional work in software development, debugging, or systems analysis.
+Familiarity with debugging techniques and an interest in system performance and optimization.
+Understanding of software engineering fundamentals, including testing, code quality, and maintainability.
+Solid programming, analytical, and problem-solving skills.
+Ability to learn new technologies, collaborate effectively, and use data to support decisions.
+Coursework, internship, or project experience with operating systems or system-level development.
+Familiarity with Windows internals, performance analysis, or power optimization.
+Interest in learning how hardware, firmware, operating systems, and applications interact.
+Exposure to telemetry, data analysis, statistics, or cloud data platforms.
+Experience collaborating on team projects and communicating technical ideas clearly.
+
+#W+DJOBS
+
+#WDJOBS
+
+#WSSIJOBS
+
+This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment
+without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, 
+genetic information, immigration status, marital status, medical condition, national origin, physical or mental
+disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including 
+pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, 
+regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a 
+disability during the application process, read more about requesting accommodations.

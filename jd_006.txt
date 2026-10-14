@@ -1,0 +1,52 @@
+TITLE: Software Engineer
+COMPANY: NCR Atleos
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: Freshers
+SALARY:  NA 
+SOURCE: Linkedin
+URL:https://www.linkedin.com/jobs/view/4458006523/
+Date_POSTED:2026-10-14
+DATE_COLLECTED: 2026-10-14
+---
+About the job
+About NCR Atleos
+
+NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe.
+
+Languages Required: JavaScript; .NET; C#; HTML; CSS; AngularJS; Typescript; Python
+Languages preferred but not essential: C++; Java
+Experience with software design, development and deployment, object-oriented software development
+Practical experience integrating AI/Machine Learning (ML) capabilities into software using APIs or libraries (e.g. LLMs, ML services, or SDKs)
+Produce high quality Software Solutions
+Experience / knowledge of operating in an Agile development environment and familiarity with Agile principles
+Understanding of prompt engineering, AI limitations, and responsible use (bias, security, correctness)
+Good understanding of Windows Operating systems: Windows 10\Windows 11
+Good software designing skills and usage of tools
+Have a strong desire for quality, and attention to detail, good solid analytical skills
+Identify and implement process improvements in Engineering practices
+Provide input and technical content for technical documentation, user help materials and customer training
+Assist in estimating task effort and dependencies, responsible for team commitments within the Sprint, as a scrum team member
+Ability to multi-task and prioritize in a fast-paced environment
+Ability to work effectively in a team environment composed of peers and cross-functional members
+Work independently with limited supervision
+Good troubleshooting & problem-solving skills involving complex systems
+Good understanding of Software Development and Quality Assurance best practices
+Excellent written and verbal communication skills
+Excellent teamwork and collaboration skills
+Experience with tools utilized in development environment is desirable, they are:
+Jira
+Confluence
+Sonar
+GitHub
+GitHub Actions
+Docker
+CI / CD Pipeline
+Offers of employment are conditional upon passage of screening criteria applicable to the job.
+
+EEO Statement
+
+NCR Atleos is an equal-opportunity employer. It is NCR Atleos policy to hire, train, promote, and pay associates based on their job-related qualifications, ability, and performance, without regard to race, color, creed, religion, national origin, citizenship status, sex, sexual orientation, gender identity/expression, pregnancy, marital status, age, mental or physical disability, genetic information, medical condition, military or veteran status, or any other factor protected by law.
+
+Statement to Third Party Agencies
+
+To ALL recruitment agencies: NCR Atleos only accepts resumes from agencies on the NCR Atleos preferred supplier list. Please do not forward resumes to our applicant tracking system, NCR Atleos employees, or any NCR Atleos facility. NCR Atleos is not responsible for any fees or charges associated with unsolicited resumes.

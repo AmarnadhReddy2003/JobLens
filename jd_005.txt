@@ -1,0 +1,105 @@
+TITLE: Associate Software Engineer
+COMPANY: Franklin Templeton
+LOCATION: Hyderabad, Telangana, India
+EXPERIENCE: 0-2
+SALARY:  NA
+SOURCE: Linkedin
+URL:https://www.linkedin.com/jobs/view/4462852125/
+Date_POSTED:2026-10-14
+DATE_COLLECTED: 2026-10-14
+---
+About the job
+At Franklin Templeton, we believe success is built through powerful partnerships. 
+As a forward‑thinking asset manager, we build dynamic relationships with clients, understand their goals, and navigate complex markets together. 
+We leverage cutting‑edge strategies and deep insights to unlock opportunities for long‑term wealth creation. Our talented, global teams bring expertise that is both broad and unique.
+
+From our welcoming, inclusive, and supportive culture to our globally diverse business, we offer opportunities not only to help you reach your potential, but also to contribute to our clients’ success.
+
+About The Department
+
+Legal and Compliance Technology delivers and supports the critical applications that help legal and compliance teams operate efficiently, manage risk, and meet regulatory obligations. 
+The team works closely with business stakeholders, technology professionals, and compliance specialists to maintain and enhance solutions supporting trade compliance, 
+Know Your Customer/Know Your Distributor (KYC/KYD), agreement management, legal document management, contract lifecycle management, and global regulatory compliance. 
+Team members gain exposure to business-critical processes, regulatory technologies, and cross-functional collaboration in a highly impactful environment.
+
+How You Will Add Value?
+
+Technical Responsibilities
+
+You will administer and support legal and compliance applications.
+You will configure, test, and maintain enterprise platforms.
+You will manage data, integrations, and batch processing activities.
+You will support access management and user administration.
+You will troubleshoot and resolve application issues.
+You will assist with release management activities.
+You will support regulatory and compliance technology platforms.
+
+Functional Responsibilities
+
+You will analyze legal and compliance business processes.
+You will document business and functional requirements.
+You will translate requirements into application enhancements.
+You will support workflow optimization and automation.
+You will help ensure audit and regulatory readiness.
+
+Stakeholder Collaboration
+
+You will collaborate with business users and technology teams.
+You will work with developers and Quality Assurance (QA) teams.
+You will provide documentation, support, and status updates.
+
+Learning & Development
+
+You will complete role-based training programs.
+You will build expertise in legal, compliance, and technology domains.
+
+What Will Help You Be Successful in This Role?
+
+Experience, Education & Certifications
+
+Bachelor’s degree in computer science, Information Technology, Engineering, or Business. An AI first mentality is essential to this position.
+Foundational programming and database knowledge.
+Hands-on experience with AI productivity tools, including ChatGPT, Codex, Claude, and Copilot.
+
+Technical Skills
+
+Knowledge of Application Programming Interfaces (APIs).
+Knowledge of Structured Query Language (SQL), Python, and Microsoft Excel.
+Exposure to enterprise, financial, or Enterprise Resource Planning (ERP) platforms.
+Understanding of application support and system administration concepts.
+
+Soft Skills
+
+Strong communication and interpersonal skills.
+Analytical and problem-solving capabilities.
+Learning agility and adaptability.
+Ability to collaborate effectively within cross-functional teams.
+Strong sense of ownership and accountability.
+
+Work Shift Timings - 2:00 PM - 11:00 PM IST
+
+At Franklin Templeton, we believe your benefits should support your life, your goals, and your future. 
+That’s why we offer a comprehensive Total Rewards package designed to help you thrive both personally and professionally.
+
+Highlights Of Our Benefits Include
+
+Professional development growth opportunities through in-house classes and over 150 Web-based training courses
+An educational assistance program to financially help employees seeking continuing education
+Medical, Life and Personal Accident Insurance benefit for employees. Medical insurance also cover employee’s dependents (spouses, children and dependent parents)
+Life insurance for protection of employees’ families
+Personal accident insurance for protection of employees and their families
+Personal loan assistance
+Employee Stock Investment Plan (ESIP)
+12 weeks Paternity leave
+Onsite fitness center, recreation center, and cafeteria
+Transport facility
+Child day care facility for women employees
+Cricket grounds and gymnasium
+Library
+Health Center with doctor availability
+HDFC ATM on the campus
+
+Franklin Templeton is an Equal Opportunity Employer. We are committed to providing equal employment opportunities to all applicants and existing employees, 
+and we evaluate qualified applicants without regard to ancestry, age, color, disability, genetic information, gender, gender identity, or gender expression, 
+marital status, medical condition, military or veteran status, national origin, race, religion, sex, sexual orientation, and any other basis protected by federal, state, or local law, ordinance, or regulation.
+
