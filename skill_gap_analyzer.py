@@ -1,8 +1,11 @@
-
 from pathlib import Path
 
 from loader import load_all
-from skill_extractor import extract_from_all_jds, extract_skills
+from skill_extractor import (
+    extract_from_all_jds,
+    extract_skills,
+    SKILL_CATEGORIES
+)
 
 
 def load_my_skills(path="my_skills.txt"):
@@ -13,10 +16,9 @@ def load_my_skills(path="my_skills.txt"):
             f"{path} not found. Create the file and list your skills."
         )
 
-    with open(skills_file, "r", encoding="utf-8") as file:
+    with open(path, "r", encoding="utf-8") as file:
         text = file.read()
 
-    # Use the same dictionary as the job description extractor.
     return set(extract_skills(text))
 
 
@@ -24,90 +26,111 @@ def analyze_skill_gaps(extraction_results, my_skills):
     required_skill_counts = {}
 
     for jd in extraction_results:
-        # Count each skill at most once per job description.
-        unique_skills = set(jd["skills"])
-
-        for skill in unique_skills:
+        for skill in set(jd["skills"]):
             required_skill_counts[skill] = (
                 required_skill_counts.get(skill, 0) + 1
             )
 
-    # Skills found in job descriptions but not in your profile.
-    missing_skills = []
-
-    # Skills found in both job descriptions and your profile.
+    total_jds = len(extraction_results)
     matched_skills = []
+    review_skills = []
 
     for skill, count in required_skill_counts.items():
-        percentage = (
-            count / len(extraction_results) * 100
-            if extraction_results
-            else 0
-        )
+        percentage = count / total_jds * 100 if total_jds else 0
 
         result = {
             "skill": skill,
             "job_count": count,
-            "percentage": round(percentage, 2)
+            "percentage": round(percentage, 2),
+            "status": (
+                "Matched" if skill in my_skills
+                else "Review or learn"
+            )
         }
 
         if skill in my_skills:
             matched_skills.append(result)
         else:
-            missing_skills.append(result)
+            review_skills.append(result)
 
     matched_skills.sort(
         key=lambda item: item["job_count"],
         reverse=True
     )
 
-    missing_skills.sort(
+    review_skills.sort(
         key=lambda item: item["job_count"],
         reverse=True
     )
 
-    return matched_skills, missing_skills
+    return matched_skills, review_skills
 
 
-def display_results(matched_skills, missing_skills, total_jds):
-    print("\nJOBLENS SKILL-GAP ANALYSIS")
-    print("=" * 65)
-    print("Job descriptions analyzed:", total_jds)
-
-    print("\nSKILLS MATCHING YOUR PROFILE")
+def display_skill_group(title, skills, total_jds):
+    print(f"\n{title}")
     print("-" * 65)
 
-    if matched_skills:
-        for item in matched_skills:
+    if not skills:
+        print("No skills in this group.")
+        return
+
+    skill_lookup = {
+        item["skill"]: item
+        for item in skills
+    }
+
+    displayed_skills = set()
+
+    for category, category_skills in SKILL_CATEGORIES.items():
+        found_skills = [
+            skill for skill in category_skills
+            if skill in skill_lookup
+        ]
+
+        if not found_skills:
+            continue
+
+        print(f"\n{category}:")
+
+        found_skills.sort(
+            key=lambda skill: skill_lookup[skill]["job_count"],
+            reverse=True
+        )
+
+        for skill in found_skills:
+            item = skill_lookup[skill]
+
             print(
-                f"{item['skill']:<30} "
-                f"{item['job_count']} jobs "
+                f"  {skill}: "
+                f"{item['job_count']}/{total_jds} jobs "
                 f"({item['percentage']:.2f}%)"
             )
-    else:
-        print("No matching skills found.")
 
-    print("\nSKILLS TO REVIEW OR LEARN")
-    print("-" * 65)
+            displayed_skills.add(skill)
 
-    if missing_skills:
-        for item in missing_skills:
+    remaining = [
+        item for item in skills
+        if item["skill"] not in displayed_skills
+    ]
+
+    if remaining:
+        print("\nOther Skills:")
+
+        for item in remaining:
             print(
-                f"{item['skill']:<30} "
-                f"{item['job_count']} jobs "
+                f"  {item['skill']}: "
+                f"{item['job_count']}/{total_jds} jobs "
                 f"({item['percentage']:.2f}%)"
             )
-    else:
-        print("No skill gaps detected.")
-
-    print("\nSUMMARY")
-    print("-" * 65)
-    print("Matched skills:", len(matched_skills))
-    print("Skills to review or learn:", len(missing_skills))
 
 
 def main():
     job_descriptions = load_all(".")
+
+    if not job_descriptions:
+        print("No job descriptions available for analysis.")
+        return
+
     extraction_results = extract_from_all_jds(job_descriptions)
 
     try:
@@ -118,19 +141,40 @@ def main():
 
     total_jds = len(extraction_results)
 
-    if total_jds == 0:
-        print("No job descriptions available for analysis.")
-        return
-
-    matched_skills, missing_skills = analyze_skill_gaps(
+    matched_skills, review_skills = analyze_skill_gaps(
         extraction_results,
         my_skills
     )
 
-    display_results(
+    print("\nJOBLENS SKILL-GAP ANALYSIS")
+    print("=" * 65)
+
+    print(f"Job descriptions analyzed: {total_jds}")
+    print(f"Confirmed profile matches: {len(matched_skills)}")
+    print(f"Skills to review: {len(review_skills)}")
+
+    display_skill_group(
+        "SKILLS MATCHING YOUR PROFILE",
         matched_skills,
-        missing_skills,
         total_jds
+    )
+
+    display_skill_group(
+        "SKILLS TO REVIEW OR LEARN",
+        review_skills,
+        total_jds
+    )
+
+    print("\nINTERPRETATION")
+    print("-" * 65)
+    print(
+        "A skill listed for review is not confirmed in your profile. "
+        "It does not necessarily mean you lack that skill."
+    )
+    print(
+        "Frequency shows how often a skill appeared in the collected "
+        "job descriptions. It does not independently determine "
+        "whether a skill is essential for a particular role."
     )
 
 
