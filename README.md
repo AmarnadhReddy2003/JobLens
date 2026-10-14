@@ -165,6 +165,22 @@ The current skill-gap analysis identifies 12 detected skills as matches for the 
 
 These figures describe the current dataset and profile only. They are not universal estimates of employer demand or a definitive assessment of the user's abilities.
 
+
+## Project Screenshots
+
+### Skill Frequency Analysis
+
+This output shows the most frequently detected skills, category-level summaries, and complete skill frequency results across the collected job descriptions.
+
+![JobLens skill frequency analysis](screenshots/skill-analysis.png)
+
+### Personal Skill-Gap Analysis
+
+This output compares detected job-market skills against the user's self-reported skills profile and identifies skills to review or learn.
+
+![JobLens skill-gap analysis](screenshots/skill-gap-analysis.png)
+
+
 ## Limitations
 
 - The analysis is based on a sample of 10 collected job descriptions.
