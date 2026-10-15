@@ -71,7 +71,7 @@ def display_summary(total_jds, skill_analysis):
     )
 
 
-def display_category_summary(category_analysis):
+def display_category_summary(category_analysis, total_jobs):
     print("\nCATEGORY SUMMARY")
     print("-" * 65)
 
@@ -81,6 +81,7 @@ def display_category_summary(category_analysis):
             f"{item['job_count']}/{total_jobs} jobs "
             f"({item['percentage']:.2f}%)"
         )
+
 
 
 def display_all_skills(extraction_results, skill_analysis):
@@ -141,8 +142,6 @@ def display_all_skills(extraction_results, skill_analysis):
 
 
 def main():
-    global total_jobs
-
     job_descriptions = load_all()
 
     if not job_descriptions:
@@ -157,7 +156,7 @@ def main():
     category_analysis = analyze_categories(extraction_results)
 
     display_summary(total_jobs, skill_analysis)
-    display_category_summary(category_analysis)
+    display_category_summary(category_analysis, total_jobs)
     display_all_skills(extraction_results, skill_analysis)
 
 
