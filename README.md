@@ -40,11 +40,14 @@ JobLens addresses this problem by extracting skills from collected job descripti
 ## Project Structure
 
 ```text
+
 JobLens/
-├── jd_001.txt
-├── jd_002.txt
-├── ...
-├── jd_010.txt
+├── data/
+│   └── jds/
+│       ├── jd_001.txt
+│       ├── jd_002.txt
+│       ├── ...
+│       └── jd_010.txt
 ├── Roles.txt
 ├── websites.txt
 ├── my_skills.txt
@@ -54,6 +57,7 @@ JobLens/
 ├── skill_analyzer.py
 ├── skill_gap_analyzer.py
 ├── report_generator.py
+├── test_skill_extractor.py
 ├── reports/
 │   ├── skill_frequency.csv
 │   ├── category_frequency.csv
@@ -61,6 +65,7 @@ JobLens/
 │   ├── skill_gap_report.json
 │   └── joblens_report.txt
 └── README.md
+
 ```
 
 ### Main Components
