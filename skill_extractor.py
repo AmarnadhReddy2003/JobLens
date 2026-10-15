@@ -67,7 +67,7 @@ SKILL_DICTIONARY = {
     "Unit Testing": ["unit testing", "unit tests"],
     "API Testing": ["api testing"],
     "Software Testing": ["software testing"],
-    "Debugging": ["debugging"],
+    "Debugging": ["debugging", "debug"],
     "Version Control": ["version control"],
 
     # Computer science fundamentals
@@ -227,7 +227,7 @@ def extract_from_all_jds(job_descriptions):
 
 
 if __name__ == "__main__":
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
     results = extract_from_all_jds(job_descriptions)
 
     print("\nJOBLENS SKILL EXTRACTION")

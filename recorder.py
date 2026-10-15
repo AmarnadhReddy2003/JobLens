@@ -78,7 +78,7 @@ def validate_jds(job_descriptions):
 
 
 if __name__ == "__main__":
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
 
     issues = validate_jds(job_descriptions)
 

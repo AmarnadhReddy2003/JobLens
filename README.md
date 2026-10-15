@@ -76,7 +76,7 @@ JobLens/
 | `my_skills.txt` | Stores the user's self-assessed skills. |
 | `websites.txt` | Records the job-source websites used for the project. |
 | `Roles.txt` | Records the roles considered during data collection. |
-| `jd_*.txt` | Stores the collected job descriptions. |
+| `data/jds/jd_*.txt` | Stores the collected job descriptions. |
 
 ## How It Works
 

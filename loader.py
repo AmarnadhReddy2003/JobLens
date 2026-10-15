@@ -34,21 +34,23 @@ def parse_jd(path):
     }
 
 
-def load_all(folder="."):
-    folder_path = Path(folder)
-    job_descriptions = []
+def load_all(folder=None):
+    if folder is None:
+        folder_path = Path(__file__).resolve().parent / "data" / "jds"
+    else:
+        folder_path = Path(folder)
 
+    job_descriptions = []
     paths = sorted(folder_path.glob("jd_*.txt"))
 
     if not paths:
-        print("No JD files found.")
+        print(f"No JD files found in: {folder_path}")
 
     for path in paths:
         try:
             result = parse_jd(path)
             result["file"] = path.name
             job_descriptions.append(result)
-
         except (ValueError, OSError) as error:
             print(f"Could not load {path.name}: {error}")
 
@@ -56,7 +58,7 @@ def load_all(folder="."):
 
 
 if __name__ == "__main__":
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
 
     print("\nJOBLENS DATA LOADER")
     print("-------------------")
@@ -71,4 +73,4 @@ if __name__ == "__main__":
             meta.get("COMPANY", "Unknown"),
             "|",
             meta.get("TITLE", "Unknown")
-        )
+            )

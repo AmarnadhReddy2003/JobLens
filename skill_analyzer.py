@@ -143,7 +143,7 @@ def display_all_skills(extraction_results, skill_analysis):
 def main():
     global total_jobs
 
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
 
     if not job_descriptions:
         print("No job descriptions available for analysis.")

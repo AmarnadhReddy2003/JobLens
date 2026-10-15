@@ -170,7 +170,7 @@ def write_text_report(
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
     total_jds = len(job_descriptions)
 
     if total_jds == 0:

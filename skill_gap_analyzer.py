@@ -125,7 +125,7 @@ def display_skill_group(title, skills, total_jds):
 
 
 def main():
-    job_descriptions = load_all(".")
+    job_descriptions = load_all()
 
     if not job_descriptions:
         print("No job descriptions available for analysis.")
