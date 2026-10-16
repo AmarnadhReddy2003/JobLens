@@ -4,72 +4,42 @@
     {
       "id": "eval_001",
       "description": "We need a Python developer with SQL and Django experience.",
-      "expected_skills": [
-        "Python",
-        "SQL",
-        "Django"
-      ]
+      "expected_skills": ["Python", "SQL", "Django"]
     },
     {
       "id": "eval_002",
       "description": "Candidates should know JavaScript, React, and REST APIs.",
-      "expected_skills": [
-        "JavaScript",
-        "React",
-        "REST APIs"
-      ]
+      "expected_skills": ["JavaScript", "React", "REST APIs"]
     },
     {
       "id": "eval_003",
       "description": "Experience with C language and C++ is preferred.",
-      "expected_skills": [
-        "C",
-        "C++"
-      ]
+      "expected_skills": ["C", "C++"]
     },
     {
       "id": "eval_004",
       "description": "The candidate should have strong communication skills and problem-solving ability.",
-      "expected_skills": [
-        "Communication",
-        "Problem Solving"
-      ]
+      "expected_skills": ["Communication", "Problem Solving"]
     },
     {
       "id": "eval_005",
-      "description": "Build machine learning models using scikit-learn and TensorFlow.",
-      "expected_skills": [
-        "Machine Learning",
-        "scikit-learn",
-        "TensorFlow"
-      ]
+      "description": "Build machine learning modelsusing scikit-learn and TensorFlow.",
+      "expected_skills": ["Machine Learning", "scikit-learn", "TensorFlow"]
     },
     {
       "id": "eval_006",
       "description": "Build a JAVA SCRIPT application with ReactJS and Mongo DB.",
-      "expected_skills": [
-        "JavaScript",
-        "React",
-        "MongoDB"
-      ]
+      "expected_skills": ["JavaScript", "React", "MongoDB"]
     },
     {
       "id": "eval_007",
       "description": "Use FAST API, NODEJS, and PostgreSQL.",
-      "expected_skills": [
-        "FastAPI",
-        "Node.js",
-        "PostgreSQL"
-      ]
+      "expected_skills": ["FastAPI", "Node.js", "PostgreSQL"]
     },
     {
       "id": "eval_008",
       "description": "Solve problem-solving tasks, troubleshoot issues, and perform code reviews.",
-      "expected_skills": [
-        "Problem Solving",
-        "Troubleshooting",
-        "Code Review"
-      ]
+      "expected_skills": ["Problem Solving", "Troubleshooting", "Code Review"]
     },
     {
       "id": "eval_009",
@@ -79,8 +49,62 @@
     {
       "id": "eval_010",
       "description": "Experience in continuous integration and continuous deployment is preferred.",
+      "expected_skills": ["CI/CD"]
+    },
+    {
+      "id": "real_001",
+      "description": "Python Full Stack Engineer. Responsibilities: Develop and maintain scalable web applications using Python and related frameworks. Collaborate with cross-functional teams to define, design, and ship new features. Build efficient back-end components with Python, Flask, and Django. Implement user interfaces using HTML/CSS, JavaScript, and React.js. Design and manage databases ensuring data integrity and security. Develop RESTful APIs to support front-end functionalities. Conduct unit testing to ensure high-quality code. Utilize version control systems for efficient code management and collaboration. Troubleshoot, debug applications, and provide technical support. Participate in code reviews and contribute to continuous improvement processes. Skills: Python Programming, Flask Framework, HTML/CSS, Node.js, Database Management, Version Control Systems, RESTful APIs, React.js, JavaScript, Django Framework, Unit Testing, Front-End Technologies.",
       "expected_skills": [
-        "CI/CD"
+        "Python",
+        "JavaScript",
+        "Django",
+        "Flask",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "REST APIs",
+        "Database Management",
+        "Unit Testing",
+        "Debugging",
+        "Version Control",
+        "Technical Support",
+        "Troubleshooting",
+        "Code Review"
+      ]
+    },
+    {
+      "id": "real_002",
+      "description": "Associate Software Engineer. Develop and maintain software applications. Write clean, efficient, and maintainable code. Understand requirements and implement technical solutions. Debug and troubleshoot software issues. Participate in testing and code reviews. Work with senior developers and cross-functional teams. Learn and apply new technologies as required. Required Skills: Basic knowledge of Java / Python. Understanding of Data Structures & Algorithms. Problem-solving and analytical skills. Knowledge of software development fundamentals. Good communication and teamwork. Willingness to learn new technologies.",
+      "expected_skills": [
+        "Python",
+        "Java",
+        "Debugging",
+        "DSA",
+        "Software Development",
+        "Programming Concepts",
+        "Problem Solving",
+        "Troubleshooting",
+        "Code Review",
+        "Communication",
+        "Teamwork"
+      ]
+    },
+    {
+      "id": "real_003",
+      "description": "Software Testing Engineer. We are seeking a motivated and detail-oriented Software Testing Engineer with a strong foundation in Python and Robot Framework. The ideal candidate will be responsible for ensuring the quality and reliability of our software products through rigorous testing methodologies. Responsibilities: Design, develop, and execute test cases using Python and Robot Framework. Perform functional, regression, and performance testing on software applications. Identify, document, and track defects using appropriate tools. Collaborate with development teams to understand requirements and provide feedback on software functionality. Participate in test planning and strategy discussions. Continuously improve testing processes and methodologies. Mandatory Skills: Strong knowledge of Python programming language. Proficiency in Robot Framework for test automation. Experience with Selenium for web application testing. Preferred Skills: Familiarity with Agile methodologies. Basic understanding of software development life cycle (SDLC). Experience with version control systems like Git. Strong analytical and problem-solving skills. Excellent communication and teamwork abilities.",
+      "expected_skills": [
+        "Python",
+        "Git",
+        "Selenium",
+        "Robot Framework",
+        "Agile",
+        "Software Testing",
+        "Version Control",
+        "Software Development",
+        "Problem Solving",
+        "Communication",
+        "Teamwork"
       ]
     }
   ]
