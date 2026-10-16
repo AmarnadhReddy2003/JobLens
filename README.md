@@ -1,41 +1,44 @@
 # JobLens — Job Market Skill Analyzer
 
-JobLens is a Python-based project that analyzes collected job descriptions to identify frequently requested skills and compare them with a user's self-reported skill profile. It helps explore hiring patterns within a sample of entry-level and related software development roles.
+JobLens is a Python-based project that analyzes collected job descriptions to identify frequently requested skills, summarize skill categories, and compare detected skills against a user-maintained skill profile.
+
+The project uses a modular architecture with separate components for data loading, validation, skill extraction, analysis, and report generation.
 
 ## Problem Statement
 
 Job seekers often find it difficult to determine which technical skills to prioritize when preparing for entry-level software development roles. Requirements vary across employers and positions, making it challenging to compare job-market expectations with existing skills.
 
-JobLens addresses this problem by extracting recognized skills from collected job descriptions, calculating their frequency, grouping them into categories, and comparing them against a user-maintained skills profile.
+JobLens addresses this problem by extracting recognized skills from collected job descriptions, calculating their frequency, grouping them into categories, and comparing them with a self-reported skills profile.
 
 ## Objectives
 
-- Analyze a collection of job descriptions using Python.
-- Extract recognized skills using a curated skill dictionary and regular expressions.
-- Calculate how frequently each skill appears across job descriptions.
+- Load and validate locally stored job descriptions.
+- Extract recognized skills using a configurable dictionary and regular expressions.
+- Calculate skill frequency across job descriptions.
 - Group skills into meaningful categories.
-- Compare detected skills against a self-reported skills profile.
-- Generate CSV, JSON, and plain-text reports.
-- Validate the structure of collected job-description data.
+- Compare detected skills with a user-maintained profile.
+- Generate CSV and JSON reports.
+- Test the project's components using automated tests.
 
 ## Features
 
-- **Job Description Loading:** Reads locally stored job descriptions from text files.
-- **Data Validation:** Checks collected job-description files for supported structural issues.
-- **Skill Extraction:** Identifies recognized skills using keyword aliases and case-insensitive regular expressions.
-- **Skill Frequency Analysis:** Counts each recognized skill at most once per job description.
-- **Category Analysis:** Groups skills into categories such as programming languages, databases, web technologies, AI and machine learning, development tools, and software engineering concepts.
-- **Skill-Gap Analysis:** Compares detected job-market skills with the skills listed in `my_skills.txt`.
-- **Report Generation:** Exports results into CSV, JSON, and plain-text formats.
-- **Extraction Tests:** Tests selected dictionary-matching behaviors, including capitalization, punctuation, special characters, and partial-word matching.
+- **Job loading:** Parses job-description files and their metadata.
+- **Data validation:** Checks required fields, experience ranges, and duplicate company-title combinations.
+- **Skill extraction:** Uses case-insensitive matching and configurable aliases.
+- **Frequency analysis:** Counts each recognized skill at most once per job description.
+- **Category analysis:** Summarizes skill categories across the dataset.
+- **Profile comparison:** Identifies skills listed in the profile and detected skills that are not listed.
+- **Report generation:** Produces CSV and JSON reports.
+- **Automated testing:** Tests loading, validation, extraction, analysis, and report generation.
 
 ## Technologies Used
 
 - Python 3
-- Regular expressions (`re`)
-- File handling and text processing
-- `collections.Counter` for frequency analysis
+- Regular expressions
+- Dataclasses and `pathlib`
+- `collections.Counter`
 - CSV and JSON
+- Pytest
 - Git and GitHub
 
 ## Project Structure
@@ -43,208 +46,179 @@ JobLens addresses this problem by extracting recognized skills from collected jo
 ```text
 JobLens/
 ├── data/
-│   └── jds/
-│       ├── jd_001.txt
-│       ├── jd_002.txt
-│       ├── ...
-│       └── jd_010.txt
+│   ├── jds/
+│   │   ├── jd_001.txt
+│   │   └── ...
+│   └── skills.json
+├── joblens/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── models.py
+│   ├── loader.py
+│   ├── validator.py
+│   ├── extractor.py
+│   ├── analyzer.py
+│   └── report_generator.py
 ├── reports/
-│   ├── skill_frequency.csv
-│   ├── category_frequency.csv
-│   ├── skill_gap_report.csv
-│   ├── skill_gap_report.json
-│   └── joblens_report.txt
+│   └── v2/
+│       ├── skill_frequency.csv
+│       ├── category_frequency.csv
+│       ├── skill_gap_report.csv
+│       └── skill_gap_report.json
+├── tests/
+│   ├── test_loader.py
+│   ├── test_validator.py
+│   ├── test_extractor.py
+│   ├── test_analyzer.py
+│   └── test_report_generator.py
+├── my_skills.txt
 ├── Roles.txt
 ├── websites.txt
-├── my_skills.txt
-├── loader.py
-├── recorder.py
-├── skill_extractor.py
-├── skill_analyzer.py
-├── skill_gap_analyzer.py
-├── report_generator.py
-├── test_skill_extractor.py
 ├── .gitignore
 └── README.md
 ```
 
-The reports directory is generated or updated when the report generator runs.
-
-## Main Components
-
-| File | Purpose |
-|---|---|
-| `loader.py` | Loads job descriptions from `data/jds/`. |
-| `recorder.py` | Validates the collected job-description data for supported structural issues. |
-| `skill_extractor.py` | Extracts recognized skills using a curated dictionary and regular expressions. |
-| `skill_analyzer.py` | Calculates skill frequencies and summarizes results by category. |
-| `skill_gap_analyzer.py` | Compares detected job-market skills with the user's self-reported profile. |
-| `report_generator.py` | Generates CSV, JSON, and plain-text reports. |
-| `test_skill_extractor.py` | Tests selected skill-extraction behaviors. |
-| `my_skills.txt` | Stores the user's self-reported skills. |
-| `Roles.txt` | Records the roles considered during data collection. |
-| `websites.txt` | Records the job-source websites used during data collection. |
-| `data/jds/jd_*.txt` | Stores the collected job descriptions. |
-
 ## How It Works
 
-1. **Data Collection:** Selected job descriptions are collected and stored as text files.
-2. **Data Loading:** `loader.py` reads the files from `data/jds/` and extracts their metadata and description text.
-3. **Data Validation:** `recorder.py` checks the collected data for supported structural issues.
-4. **Skill Extraction:** `skill_extractor.py` searches job-description text for recognized skill aliases using case-insensitive regular expressions.
-5. **Frequency Analysis:** `skill_analyzer.py` counts each detected skill once per job description and calculates its frequency across the dataset.
-6. **Skill-Gap Analysis:** `skill_gap_analyzer.py` compares detected skills with the profile in `my_skills.txt`.
-7. **Report Generation:** `report_generator.py` generates reports for further review.
-
-## Data Collection and Limitations
-
-### Data Collection
-
-JobLens currently analyzes 10 job descriptions collected from LinkedIn and Naukri. The sample focuses primarily on fresher and entry-level opportunities related to software development and other technical or adjacent roles.
-
-- **Sample size:** 10 job descriptions.
-- **Sources:** LinkedIn and Naukri.
-- **Target location:** Hyderabad, Telangana.
-- **Target experience level:** Fresher and entry-level opportunities.
-- **Collection date range:** 7 January 2026 – 14 October 2026.
-
-The job descriptions are stored locally in individual text files. JobLens analyzes this stored sample; it does not automatically collect live job postings.
-
-### Data Scope and Exceptions
-
-#### JD-007 — Fresher and Experienced Applicants
-
-JD-007 describes an opportunity intended for freshers while also allowing experienced candidates to apply. Its experience requirements may therefore reflect eligibility for a broader range of applicants rather than a fresher-only restriction.
-
-The stored location and experience metadata also need to be interpreted alongside the original posting because the location recorded in the file differs from the location indicated by its URL, and the URL's experience wording differs from the stored `Freshers` description.
-
-These differences should be checked against the original posting before the metadata is changed. The original information should be preserved unless the correct values can be verified.
-
-#### JD-010 — Mixed IT and Non-IT Hiring
-
-JD-010 was included because the job advertisement appeared on Naukri during data collection. The posting covers both IT and non-IT functions, including roles such as Process Associate and Management Trainee, rather than focusing exclusively on software development.
-
-It is retained in the current dataset to preserve the collected sample. However, because the posting covers multiple types of work, it may introduce skills that are less relevant to a narrowly defined Python developer or software engineering role. This can influence the overall skill-frequency results.
-
-### Limitations
-
-- **Small sample size:** The analysis is based on 10 collected job descriptions and cannot represent the entire Hyderabad job market.
-- **Mixed role types:** The dataset includes general software engineering postings, Python-related roles, and a mixed IT and non-IT hiring advertisement. Frequently detected skills should not be interpreted as requirements exclusive to Python developer positions.
-- **Data consistency:** Differences in stored metadata, posting URLs, locations, and experience descriptions may affect filtering and interpretation. JD-007 requires particular attention.
-- **Dictionary-based extraction:** Skills expressed using aliases or wording not covered by the curated dictionary may be missed.
-- **Context limitations:** Keyword matching does not fully understand the context in which a skill appears. Detecting a skill mention does not establish whether it is mandatory, preferred, or central to a role.
-- **Profile dependency:** The skill-gap analysis depends on the completeness and accuracy of `my_skills.txt`. A skill listed for review is not proof that the user lacks that skill.
-- **Frequency interpretation:** A skill's frequency reflects how often it appears in this collected sample, not its universal importance or demand across employers.
-- **No live collection:** JobLens processes locally stored descriptions rather than automatically retrieving current job postings.
-- **Limited accuracy evaluation:** The existing extraction tests cover selected matching behaviors but do not establish comprehensive precision, recall, or F1 performance across the dataset.
-
-The results should therefore be treated as exploratory findings from the collected sample, not as definitive estimates of employer demand or a comprehensive assessment of an individual's abilities.
+1. **Load:** Read job descriptions from `data/jds/`.
+2. **Validate:** Check the parsed records for supported data-quality issues.
+3. **Extract:** Identify recognized skills using `data/skills.json`.
+4. **Analyze:** Calculate skill and category frequencies and compare results with `my_skills.txt`.
+5. **Generate reports:** Save the results in `reports/v2/`.
+6. **Test:** Run automated tests to verify the components.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3 installed
-- Git (optional, for cloning the repository)
-- A terminal such as PowerShell or the VS Code terminal
+- Python 3
+- Git, if cloning the repository
+- PowerShell, Command Prompt, or a terminal in VS Code
 
 ### 1. Clone the Repository
 
-```bash
+```powershell
 git clone https://github.com/AmarnadhReddy2003/JobLens.git
 cd JobLens
 ```
 
-Alternatively, download the repository and open the project directory in VS Code.
+If you already have the project locally, open its root directory in your terminal.
 
-Run the commands below from the project root directory.
+### 2. Create a Virtual Environment
 
-### 2. Validate the Collected Data
-
-```bash
-python recorder.py
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
-Review the output for any reported validation issues.
+If PowerShell prevents activation, you can run the project using the virtual environment's Python executable directly.
 
-### 3. Run the Extraction Tests
+### 3. Install the Testing Dependency
 
-```bash
-python test_skill_extractor.py
+```powershell
+python -m pip install pytest
 ```
 
-This runs the existing tests for selected dictionary-matching behaviors.
+The core project uses Python's standard library; pytest is required to run the automated test suite.
 
-### 4. Analyze Skill Frequencies
+### 4. Validate the Dataset
 
-```bash
-python skill_analyzer.py
+```powershell
+python -m joblens.validator
 ```
 
-This displays the number of job descriptions analyzed, the most frequently detected skills, category summaries, and the skill analysis.
+### 5. Run Skill Analysis
 
-### 5. Analyze Your Skill Gaps
-
-```bash
-python skill_gap_analyzer.py
+```powershell
+python -m joblens.analyzer
 ```
-
-This compares detected skills against `my_skills.txt` and groups them into confirmed profile matches and skills to review or learn.
-
-A skill placed in the review-or-learn category is not confirmed in the supplied profile. It does not necessarily mean the user lacks that skill.
 
 ### 6. Generate Reports
 
-```bash
-python report_generator.py
+```powershell
+python -m joblens.report_generator
 ```
 
-The generated reports are saved in the `reports/` directory.
+The reports are written to `reports/v2/`. Running the report generator again updates those files.
 
-If `python` is not recognized on your system, try `py` instead.
+### 7. Run the Tests
+
+Run the complete test suite:
+
+```powershell
+python -m pytest -v
+```
+
+To run an individual test module:
+
+```powershell
+python -m pytest tests/test_extractor.py -v
+```
 
 ## Output Reports
 
+All four reports are saved under `reports/v2/`.
+
 | Report | Description |
 |---|---|
-| `skill_frequency.csv` | Frequency results for individual detected skills. |
-| `category_frequency.csv` | Frequency results grouped by skill category. |
-| `skill_gap_report.csv` | Tabular comparison of detected skills with the user's profile. |
-| `skill_gap_report.json` | Structured JSON version of the skill-gap results. |
-| `joblens_report.txt` | Readable summary of the analysis. |
+| `skill_frequency.csv` | Each detected skill's job count and percentage. |
+| `category_frequency.csv` | Job counts and percentages for each skill category. |
+| `skill_gap_report.csv` | Detected skills, frequency, profile status, and classification. |
+| `skill_gap_report.json` | Structured analysis results, including the summary and per-job data. |
 
-## Sample Results
+## Current Sample Results
 
-For the current dataset of 10 job descriptions, JobLens reports the following frequently detected skills:
+The current dataset contains 10 job descriptions.
 
-| Skill | Job descriptions mentioning it | Frequency |
+| Skill | Jobs mentioning it | Frequency |
 |---|---:|---:|
-| Python | 9 out of 10 | 90% |
-| Software Development | 8 out of 10 | 80% |
-| Problem Solving | 7 out of 10 | 70% |
-| Troubleshooting | 6 out of 10 | 60% |
-| Communication | 6 out of 10 | 60% |
+| Python | 9 of 10 | 90% |
+| Software Development | 8 of 10 | 80% |
+| Problem Solving | 7 of 10 | 70% |
+| Troubleshooting | 6 of 10 | 60% |
+| Communication | 6 of 10 | 60% |
 
-The current skill-gap analysis identifies 12 detected skills as matches for the supplied profile and places 35 other detected skills in the review-or-learn category.
+The current analysis detects 47 unique skills, with 12 profile matches and 35 skills to review.
 
-These figures describe the current dataset and profile. In particular, the Python result means that Python was detected in 9 of the 10 collected job descriptions; it does not mean that all 10 postings are specifically for Python developer roles.
+A skill marked for review is not listed in the current profile. This does not prove the user lacks that skill.
 
-The results are not universal estimates of employer demand or a definitive assessment of the user's abilities.
+## Data Collection and Limitations
+
+- **Sample size:** 10 job descriptions.
+- **Sources:** LinkedIn and Naukri.
+- **Target location:** Hyderabad, Telangana, with an individual posting recorded in Bengaluru.
+- **Target experience:** Primarily fresher and entry-level opportunities.
+- **Collection period:** 7 January 2026 to 14 October 2026.
+
+The descriptions are stored locally. JobLens does not automatically collect live job postings.
+
+The dataset contains a mixture of software development, Python-related, and adjacent technical roles. One retained advertisement includes both IT and non-IT hiring. These factors can influence the results.
+
+**Metadata verification:** JD-007's stored location and experience details may differ from the original posting. These details should be verified against the source before changing the stored metadata.
+
+Other limitations include:
+
+- A small sample cannot represent the entire job market.
+- Dictionary-based extraction can miss unfamiliar aliases and contextual variations.
+- A detected mention does not establish whether a skill is mandatory or preferred.
+- Skill frequencies reflect this dataset, not universal employer demand.
+- Profile comparisons depend on the accuracy and completeness of `my_skills.txt`.
+- Automated tests cover selected behaviors but do not establish comprehensive extraction precision, recall, or F1 performance.
+
+The results should be treated as exploratory findings rather than definitive estimates of market demand or an assessment of an individual's abilities.
 
 ## Future Improvements
 
-- Expand the dataset with more job descriptions from different employers and roles.
-- Improve skill extraction to recognize additional aliases and contextual variations.
-- Distinguish technical skills, development tools, and general professional competencies more clearly.
-- Add visualizations for skill frequencies and category comparisons.
-- Introduce role-specific comparisons and configurable skill profiles.
-- Evaluate extraction precision and recall against manually reviewed job descriptions.
-- Improve validation to detect inconsistent metadata, out-of-scope experience ranges, and duplicate postings.
-- Add filtering to compare software-focused roles separately from mixed-role advertisements.
+- Expand the dataset with more verified job descriptions.
+- Improve skill aliases and contextual matching.
+- Add role-specific comparisons.
+- Evaluate extraction precision and recall against manually annotated examples.
+- Improve filtering by location, experience, and job type.
+- Add visualizations for skill and category frequencies.
 
 ## Author
 
 **Amaranadha Reddy Thallapureddy**
 
-- GitHub Profile: https://github.com/AmarnadhReddy2003
-- Project Repository: https://github.com/AmarnadhReddy2003/JobLens
+- GitHub profile: https://github.com/AmarnadhReddy2003
+- Project repository: https://github.com/AmarnadhReddy2003/JobLens

@@ -1,0 +1,192 @@
+{
+  "skills": {
+    "Python": ["python"],
+    "Java": ["java"],
+    "JavaScript": ["javascript", "java script"],
+    "C": ["c language"],
+    "C++": ["c++"],
+    "C#": ["c#"],
+    "SQL": ["sql"],
+    "TypeScript": ["typescript"],
+
+    "Django": ["django"],
+    "Flask": ["flask"],
+    "FastAPI": ["fastapi", "fast api"],
+    "React": ["react", "react.js", "reactjs"],
+    "Node.js": ["node.js", "nodejs"],
+    "HTML": ["html"],
+    "CSS": ["css"],
+    "Angular": ["angular", "angularjs"],
+    "REST APIs": [
+      "rest api",
+      "rest apis",
+      "restful api",
+      "restful apis"
+    ],
+
+    "Database Management": [
+      "database management",
+      "database administration"
+    ],
+    "MongoDB": ["mongodb", "mongo db"],
+    "PostgreSQL": ["postgresql", "postgres"],
+    "MySQL": ["mysql"],
+    "Oracle": ["oracle"],
+
+    "Machine Learning": ["machine learning"],
+    "Deep Learning": ["deep learning"],
+    "Generative AI": ["generative ai", "genai", "gen ai"],
+    "NLP": ["natural language processing", "nlp"],
+    "TensorFlow": ["tensorflow"],
+    "PyTorch": ["pytorch"],
+    "scikit-learn": ["scikit-learn", "sklearn", "scikit learn"],
+
+    "Git": ["git"],
+    "GitHub": ["github"],
+    "Docker": ["docker"],
+    "Kubernetes": ["kubernetes"],
+    "CI/CD": [
+      "ci/cd",
+      "continuous integration",
+      "continuous deployment"
+    ],
+    "Selenium": ["selenium"],
+    "Robot Framework": ["robot framework"],
+    "Agile": ["agile"],
+    "Jira": ["jira"],
+    "Unit Testing": ["unit testing", "unit tests"],
+    "API Testing": ["api testing"],
+    "Software Testing": ["software testing"],
+    "Debugging": ["debugging", "debug"],
+    "Version Control": ["version control"],
+
+    "OOP": [
+      "object-oriented programming",
+      "object oriented programming",
+      "oop"
+    ],
+    "DSA": [
+      "data structures and algorithms",
+      "data structures",
+      "dsa"
+    ],
+
+    "Software Engineering": ["software engineering"],
+    "Software Development": [
+      "software development",
+      "application development"
+    ],
+    "Software Design": ["software design"],
+    "Software Maintenance": [
+      "software maintenance",
+      "application maintenance"
+    ],
+    "Programming Concepts": [
+      "programming concepts",
+      "software development fundamentals"
+    ],
+    "Problem Solving": [
+      "problem-solving",
+      "problem solving"
+    ],
+    "Performance Optimization": [
+      "performance optimization",
+      "optimization of software",
+      "performance analysis"
+    ],
+    "Technical Support": ["technical support"],
+    "Data Analysis": ["data analysis"],
+    "Troubleshooting": [
+      "troubleshooting",
+      "troubleshoot"
+    ],
+    "Code Review": [
+      "code review",
+      "code reviews"
+    ],
+    "Communication": [
+      "communication",
+      "communication skills"
+    ],
+    "Teamwork": [
+      "teamwork",
+      "team work"
+    ]
+  },
+  "categories": {
+    "Programming Languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C",
+      "C++",
+      "C#",
+      "TypeScript"
+    ],
+    "Databases and Query Languages": [
+      "SQL",
+      "Database Management",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Oracle"
+    ],
+    "Web Technologies and Frameworks": [
+      "Django",
+      "Flask",
+      "FastAPI",
+      "React",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "Angular",
+      "REST APIs"
+    ],
+    "AI and Machine Learning": [
+      "Machine Learning",
+      "Deep Learning",
+      "Generative AI",
+      "NLP",
+      "TensorFlow",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "Development Tools and Testing": [
+      "Git",
+      "GitHub",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Selenium",
+      "Robot Framework",
+      "Jira",
+      "Unit Testing",
+      "API Testing",
+      "Software Testing",
+      "Version Control"
+    ],
+    "Computer Science Fundamentals": [
+      "OOP",
+      "DSA",
+      "Programming Concepts"
+    ],
+    "Software Engineering Concepts": [
+      "Software Engineering",
+      "Software Development",
+      "Software Design",
+      "Software Maintenance",
+      "Problem Solving",
+      "Debugging",
+      "Performance Optimization",
+      "Troubleshooting",
+      "Code Review"
+    ],
+    "Other Skills": [
+      "Agile",
+      "Technical Support",
+      "Data Analysis",
+      "Communication",
+      "Teamwork"
+    ]
+  }
+}
