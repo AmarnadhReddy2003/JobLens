@@ -1,7 +1,3 @@
 websites
-linkedin
-naukari
-glassdoor
-instahire
-indeed
-official company pages
+LinkedIn
+Naukri
