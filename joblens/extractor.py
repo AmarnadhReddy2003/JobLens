@@ -54,7 +54,6 @@ def contains_skill(text: str, alias: str) -> bool:
     pattern = r"(?<!\w)" + re.escape(alias) + r"(?!\w)"
     return re.search(pattern, text, flags=re.IGNORECASE) is not None
 
-
 def extract_skills(
     text: str,
     skill_dictionary: dict[str, list[str]] | None = None,
@@ -69,8 +68,18 @@ def extract_skills(
         if any(contains_skill(text, alias) for alias in aliases):
             found_skills.append(skill)
 
-    return found_skills
+    # Avoid detecting Java from the "java script" alias of JavaScript.
+    if "JavaScript" in found_skills and re.search(
+        r"(?<!\w)java\s+script(?!\w)",
+        text,
+        flags=re.IGNORECASE,
+    ):
+        found_skills = [
+            skill for skill in found_skills
+            if skill != "Java"
+        ]
 
+    return found_skills
 
 def categorize_skills(
     skills: list[str],

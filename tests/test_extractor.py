@@ -30,6 +30,13 @@ def test_c_does_not_match_communication():
 def test_java_does_not_match_javascript():
     assert contains_skill("JavaScript developer", "java") is False
 
+def test_java_script_alias_does_not_also_match_java():
+    result = extract_skills(
+        "Build a JAVA SCRIPT application",
+    )
+
+    assert "JavaScript" in result
+    assert "Java" not in result
 
 def test_cplusplus_is_detected():
     assert "C++" in extract_skills("Experience with C++")

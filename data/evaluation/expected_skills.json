@@ -1,0 +1,87 @@
+
+{
+  "cases": [
+    {
+      "id": "eval_001",
+      "description": "We need a Python developer with SQL and Django experience.",
+      "expected_skills": [
+        "Python",
+        "SQL",
+        "Django"
+      ]
+    },
+    {
+      "id": "eval_002",
+      "description": "Candidates should know JavaScript, React, and REST APIs.",
+      "expected_skills": [
+        "JavaScript",
+        "React",
+        "REST APIs"
+      ]
+    },
+    {
+      "id": "eval_003",
+      "description": "Experience with C language and C++ is preferred.",
+      "expected_skills": [
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "id": "eval_004",
+      "description": "The candidate should have strong communication skills and problem-solving ability.",
+      "expected_skills": [
+        "Communication",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "eval_005",
+      "description": "Build machine learning models using scikit-learn and TensorFlow.",
+      "expected_skills": [
+        "Machine Learning",
+        "scikit-learn",
+        "TensorFlow"
+      ]
+    },
+    {
+      "id": "eval_006",
+      "description": "Build a JAVA SCRIPT application with ReactJS and Mongo DB.",
+      "expected_skills": [
+        "JavaScript",
+        "React",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "eval_007",
+      "description": "Use FAST API, NODEJS, and PostgreSQL.",
+      "expected_skills": [
+        "FastAPI",
+        "Node.js",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "eval_008",
+      "description": "Solve problem-solving tasks, troubleshoot issues, and perform code reviews.",
+      "expected_skills": [
+        "Problem Solving",
+        "Troubleshooting",
+        "Code Review"
+      ]
+    },
+    {
+      "id": "eval_009",
+      "description": "The team will communicate with Pythonista developers working on team-oriented projects.",
+      "expected_skills": []
+    },
+    {
+      "id": "eval_010",
+      "description": "Experience in continuous integration and continuous deployment is preferred.",
+      "expected_skills": [
+        "CI/CD"
+      ]
+    }
+  ]
+}
