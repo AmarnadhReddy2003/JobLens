@@ -11,38 +11,38 @@ Teamwork,3,30.0
 C++,3,30.0
 SQL,3,30.0
 Machine Learning,3,30.0
-Code Review,2,20.0
-REST APIs,2,20.0
 HTML,2,20.0
-CSS,2,20.0
+Version Control,2,20.0
 Django,2,20.0
 Technical Support,2,20.0
+REST APIs,2,20.0
+CSS,2,20.0
+Code Review,2,20.0
 Flask,2,20.0
-Version Control,2,20.0
 Programming Concepts,2,20.0
 DSA,2,20.0
-Software Testing,2,20.0
 Agile,2,20.0
+Software Testing,2,20.0
 Software Engineering,2,20.0
 Data Analysis,2,20.0
-C#,2,20.0
 Performance Optimization,2,20.0
+C#,2,20.0
 Software Design,2,20.0
-Unit Testing,1,10.0
-Database Management,1,10.0
 React,1,10.0
 Node.js,1,10.0
-Git,1,10.0
+Unit Testing,1,10.0
+Database Management,1,10.0
 Robot Framework,1,10.0
+Git,1,10.0
 Selenium,1,10.0
-Jira,1,10.0
-Angular,1,10.0
 GitHub,1,10.0
-TypeScript,1,10.0
 Docker,1,10.0
-scikit-learn,1,10.0
+Angular,1,10.0
+Jira,1,10.0
+TypeScript,1,10.0
 TensorFlow,1,10.0
+scikit-learn,1,10.0
 Generative AI,1,10.0
 OOP,1,10.0
-Software Maintenance,1,10.0
 Oracle,1,10.0
+Software Maintenance,1,10.0

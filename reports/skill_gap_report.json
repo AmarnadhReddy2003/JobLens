@@ -63,22 +63,12 @@
             "percentage": 30.0
         },
         {
-            "skill": "Code Review",
-            "job_count": 2,
-            "percentage": 20.0
-        },
-        {
-            "skill": "REST APIs",
-            "job_count": 2,
-            "percentage": 20.0
-        },
-        {
             "skill": "HTML",
             "job_count": 2,
             "percentage": 20.0
         },
         {
-            "skill": "CSS",
+            "skill": "Version Control",
             "job_count": 2,
             "percentage": 20.0
         },
@@ -93,12 +83,22 @@
             "percentage": 20.0
         },
         {
-            "skill": "Flask",
+            "skill": "REST APIs",
             "job_count": 2,
             "percentage": 20.0
         },
         {
-            "skill": "Version Control",
+            "skill": "CSS",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Code Review",
+            "job_count": 2,
+            "percentage": 20.0
+        },
+        {
+            "skill": "Flask",
             "job_count": 2,
             "percentage": 20.0
         },
@@ -113,12 +113,12 @@
             "percentage": 20.0
         },
         {
-            "skill": "Software Testing",
+            "skill": "Agile",
             "job_count": 2,
             "percentage": 20.0
         },
         {
-            "skill": "Agile",
+            "skill": "Software Testing",
             "job_count": 2,
             "percentage": 20.0
         },
@@ -133,12 +133,12 @@
             "percentage": 20.0
         },
         {
-            "skill": "C#",
+            "skill": "Performance Optimization",
             "job_count": 2,
             "percentage": 20.0
         },
         {
-            "skill": "Performance Optimization",
+            "skill": "C#",
             "job_count": 2,
             "percentage": 20.0
         },
@@ -146,16 +146,6 @@
             "skill": "Software Design",
             "job_count": 2,
             "percentage": 20.0
-        },
-        {
-            "skill": "Unit Testing",
-            "job_count": 1,
-            "percentage": 10.0
-        },
-        {
-            "skill": "Database Management",
-            "job_count": 1,
-            "percentage": 10.0
         },
         {
             "skill": "React",
@@ -168,7 +158,12 @@
             "percentage": 10.0
         },
         {
-            "skill": "Git",
+            "skill": "Unit Testing",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Database Management",
             "job_count": 1,
             "percentage": 10.0
         },
@@ -178,17 +173,12 @@
             "percentage": 10.0
         },
         {
+            "skill": "Git",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
             "skill": "Selenium",
-            "job_count": 1,
-            "percentage": 10.0
-        },
-        {
-            "skill": "Jira",
-            "job_count": 1,
-            "percentage": 10.0
-        },
-        {
-            "skill": "Angular",
             "job_count": 1,
             "percentage": 10.0
         },
@@ -198,22 +188,32 @@
             "percentage": 10.0
         },
         {
-            "skill": "TypeScript",
-            "job_count": 1,
-            "percentage": 10.0
-        },
-        {
             "skill": "Docker",
             "job_count": 1,
             "percentage": 10.0
         },
         {
-            "skill": "scikit-learn",
+            "skill": "Angular",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "Jira",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "TypeScript",
             "job_count": 1,
             "percentage": 10.0
         },
         {
             "skill": "TensorFlow",
+            "job_count": 1,
+            "percentage": 10.0
+        },
+        {
+            "skill": "scikit-learn",
             "job_count": 1,
             "percentage": 10.0
         },
@@ -228,12 +228,12 @@
             "percentage": 10.0
         },
         {
-            "skill": "Software Maintenance",
+            "skill": "Oracle",
             "job_count": 1,
             "percentage": 10.0
         },
         {
-            "skill": "Oracle",
+            "skill": "Software Maintenance",
             "job_count": 1,
             "percentage": 10.0
         }
@@ -255,12 +255,12 @@
             "percentage": 80.0
         },
         {
-            "category": "Development Tools and Testing",
+            "category": "Databases and Query Languages",
             "job_count": 4,
             "percentage": 40.0
         },
         {
-            "category": "Databases and Query Languages",
+            "category": "Development Tools and Testing",
             "job_count": 4,
             "percentage": 40.0
         },
@@ -313,13 +313,13 @@
                 "status": "Matched"
             },
             {
-                "skill": "REST APIs",
+                "skill": "Django",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Matched"
             },
             {
-                "skill": "Django",
+                "skill": "REST APIs",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Matched"
@@ -331,13 +331,13 @@
                 "status": "Matched"
             },
             {
-                "skill": "scikit-learn",
+                "skill": "TensorFlow",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Matched"
             },
             {
-                "skill": "TensorFlow",
+                "skill": "scikit-learn",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Matched"
@@ -399,19 +399,13 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "Code Review",
-                "job_count": 2,
-                "percentage": 20.0,
-                "status": "Review or learn"
-            },
-            {
                 "skill": "HTML",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
             },
             {
-                "skill": "CSS",
+                "skill": "Version Control",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
@@ -423,7 +417,13 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "Version Control",
+                "skill": "CSS",
+                "job_count": 2,
+                "percentage": 20.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Code Review",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
@@ -441,13 +441,13 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "Software Testing",
+                "skill": "Agile",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
             },
             {
-                "skill": "Agile",
+                "skill": "Software Testing",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
@@ -465,13 +465,13 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "C#",
+                "skill": "Performance Optimization",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
             },
             {
-                "skill": "Performance Optimization",
+                "skill": "C#",
                 "job_count": 2,
                 "percentage": 20.0,
                 "status": "Review or learn"
@@ -480,18 +480,6 @@
                 "skill": "Software Design",
                 "job_count": 2,
                 "percentage": 20.0,
-                "status": "Review or learn"
-            },
-            {
-                "skill": "Unit Testing",
-                "job_count": 1,
-                "percentage": 10.0,
-                "status": "Review or learn"
-            },
-            {
-                "skill": "Database Management",
-                "job_count": 1,
-                "percentage": 10.0,
                 "status": "Review or learn"
             },
             {
@@ -507,7 +495,13 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "Git",
+                "skill": "Unit Testing",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Database Management",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Review or learn"
@@ -519,19 +513,13 @@
                 "status": "Review or learn"
             },
             {
+                "skill": "Git",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
                 "skill": "Selenium",
-                "job_count": 1,
-                "percentage": 10.0,
-                "status": "Review or learn"
-            },
-            {
-                "skill": "Jira",
-                "job_count": 1,
-                "percentage": 10.0,
-                "status": "Review or learn"
-            },
-            {
-                "skill": "Angular",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Review or learn"
@@ -543,25 +531,37 @@
                 "status": "Review or learn"
             },
             {
-                "skill": "TypeScript",
-                "job_count": 1,
-                "percentage": 10.0,
-                "status": "Review or learn"
-            },
-            {
                 "skill": "Docker",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Review or learn"
             },
             {
-                "skill": "Software Maintenance",
+                "skill": "Angular",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Jira",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "TypeScript",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Review or learn"
             },
             {
                 "skill": "Oracle",
+                "job_count": 1,
+                "percentage": 10.0,
+                "status": "Review or learn"
+            },
+            {
+                "skill": "Software Maintenance",
                 "job_count": 1,
                 "percentage": 10.0,
                 "status": "Review or learn"

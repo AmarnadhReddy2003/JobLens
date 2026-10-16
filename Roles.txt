@@ -5,5 +5,3 @@ Django Developer
 Software Engineer (Python)
 Backend Developer (Python)
 Junior or Associate Software Engineer (Python)
-
-
