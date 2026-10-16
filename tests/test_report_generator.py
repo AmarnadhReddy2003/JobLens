@@ -10,7 +10,8 @@ def read_csv(path):
         return list(csv.DictReader(file))
 
 
-def test_all_four_report_files_are_created(tmp_path, monkeypatch):
+
+def test_all_five_report_files_are_created(tmp_path, monkeypatch):
     monkeypatch.setattr(report_generator, "REPORTS_DIR", tmp_path)
 
     report_generator.generate_reports()
@@ -22,6 +23,7 @@ def test_all_four_report_files_are_created(tmp_path, monkeypatch):
         "category_frequency.csv",
         "skill_gap_report.csv",
         "skill_gap_report.json",
+        "skill_context_frequency.csv",
     }
 
     actual_files = {path.name for path in output_dir.iterdir()}
@@ -96,3 +98,22 @@ def test_output_directory_is_created_when_missing(tmp_path, monkeypatch):
     report_generator.generate_reports()
 
     assert (reports_dir / "v2").is_dir()
+
+def test_skill_context_csv_headers_are_correct():
+    from joblens.report_generator import generate_reports
+    from joblens.config import REPORTS_DIR
+    import csv
+
+    generate_reports()
+
+    report_path = (
+        REPORTS_DIR / "v2" / "skill_context_frequency.csv"
+    )
+
+    with report_path.open(
+        "r", newline="", encoding="utf-8-sig"
+    ) as file:
+        reader = csv.reader(file)
+        headers = next(reader)
+
+    assert headers == ["skill", "context", "jobs", "percentage"]

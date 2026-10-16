@@ -16,7 +16,7 @@ def write_csv(path, fieldnames, rows):
 
 
 def generate_reports():
-    """Analyze job descriptions and save reports."""
+    """Analyze job descriptions and save all reports."""
     output_dir = REPORTS_DIR / "v2"
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -52,6 +52,7 @@ def generate_reports():
 
     for skill, status in profile_status.items():
         item = frequency[skill]
+
         gap_rows.append({
             "skill": skill,
             "jobs": item["jobs"],
@@ -62,6 +63,7 @@ def generate_reports():
 
     for skill in analysis["skills_to_review"]:
         item = frequency[skill]
+
         gap_rows.append({
             "skill": skill,
             "jobs": item["jobs"],
@@ -90,7 +92,14 @@ def generate_reports():
         gap_rows,
     )
 
-    # Report 4: Complete analysis in JSON format
+    # Report 4: Skill context frequency
+    write_csv(
+        output_dir / "skill_context_frequency.csv",
+        ["skill", "context", "jobs", "percentage"],
+        analysis["context_frequency"],
+    )
+
+    # Report 5: Complete analysis in JSON format
     json_report = {
         **analysis,
         "load_failures": load_result.failures,
@@ -101,11 +110,10 @@ def generate_reports():
     ) as file:
         json.dump(json_report, file, indent=2, ensure_ascii=False)
 
-    # Keep terminal output short.
-    print("JOBLENS V2 — REPORTS GENERATED")
+    print("JOBLENS V2 - REPORTS GENERATED")
     print(f"Jobs analyzed: {analysis['summary']['jobs_analyzed']}")
     print(f"Reports saved: {output_dir}")
-    print("Files created: 4")
+    print("Files created: 5")
 
 
 if __name__ == "__main__":

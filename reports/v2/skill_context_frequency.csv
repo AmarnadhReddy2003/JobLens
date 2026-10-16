@@ -1,0 +1,54 @@
+﻿skill,context,jobs,percentage
+Python,mentioned,8,80.0
+Software Development,mentioned,8,80.0
+Problem Solving,mentioned,7,70.0
+Communication,mentioned,6,60.0
+Troubleshooting,mentioned,6,60.0
+Debugging,mentioned,4,40.0
+Machine Learning,mentioned,3,30.0
+SQL,mentioned,3,30.0
+Teamwork,mentioned,3,30.0
+Agile,mentioned,2,20.0
+C++,mentioned,2,20.0
+Code Review,mentioned,2,20.0
+Data Analysis,mentioned,2,20.0
+Django,mentioned,2,20.0
+DSA,mentioned,2,20.0
+Flask,mentioned,2,20.0
+Java,mentioned,2,20.0
+JavaScript,mentioned,2,20.0
+Performance Optimization,mentioned,2,20.0
+Programming Concepts,mentioned,2,20.0
+REST APIs,mentioned,2,20.0
+Software Design,mentioned,2,20.0
+Software Engineering,mentioned,2,20.0
+Software Testing,mentioned,2,20.0
+Technical Support,mentioned,2,20.0
+Version Control,mentioned,2,20.0
+Angular,required,1,10.0
+C#,mentioned,1,10.0
+C#,required,1,10.0
+C++,preferred,1,10.0
+CSS,mentioned,1,10.0
+CSS,required,1,10.0
+Database Management,mentioned,1,10.0
+Docker,mentioned,1,10.0
+Generative AI,mentioned,1,10.0
+Git,mentioned,1,10.0
+GitHub,mentioned,1,10.0
+HTML,mentioned,1,10.0
+HTML,required,1,10.0
+JavaScript,required,1,10.0
+Jira,mentioned,1,10.0
+Node.js,mentioned,1,10.0
+OOP,mentioned,1,10.0
+Oracle,mentioned,1,10.0
+Python,required,1,10.0
+React,mentioned,1,10.0
+Robot Framework,mentioned,1,10.0
+scikit-learn,mentioned,1,10.0
+Selenium,mentioned,1,10.0
+Software Maintenance,mentioned,1,10.0
+TensorFlow,mentioned,1,10.0
+TypeScript,required,1,10.0
+Unit Testing,mentioned,1,10.0
